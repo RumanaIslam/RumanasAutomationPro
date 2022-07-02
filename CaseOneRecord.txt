@@ -1,0 +1,72 @@
+import java.net.URL;
+
+public class caseone {
+
+    public static void main(String args[]){
+
+        DesiredCapabilities dc = new DesiredCapabilities();
+
+        dc.setCapability(MobileCapabilityType.DEVICE_NAME, value "305182302400006");
+        dc.setCapability(capabilityName: "platformName"; value: "android");
+        dc.setCapability(capabilityName: "appPackage"; value: "com.nopstation.nopcommerce.nopstationcart");
+        dc.setCapability(capabilityName: "appActivity"; value: "com.bs.ecommerce.main.SplashScreenActivity");
+
+        AndroidDriver<AndroidElement> ad = new AndroidDriver<AndroidElement>(new URL("http://localhost:4723/wd/hub"),dc);
+
+        MobileElement el1 = (MobileElement) Element) driver.findElementByXPath("//android.widget.FrameLayout[@content-desc=\"Category\"]/android.view.ViewGroup/android.widget.TextView");
+        el1.click();
+        (new TouchAction(driver)).tap(246, 957).perform()
+        (new TouchAction(driver))
+                .press(PointOption.point(468, 1217}))
+            .moveTo(PointOption.point(443, 753}))
+        .release()
+        .perform();
+
+        (new TouchAction(driver))
+        .press(PointOption.point(538, 1629}))
+        .moveTo(PointOption.point(510, 679}))
+        .release()
+        .perform();
+
+        (new TouchAction(driver))
+        .press(PointOption.point(538, 1696}))
+        .moveTo(PointOption.point(531, 904}))
+        .release()
+        .perform();
+
+        (new TouchAction(driver))
+        .press(PointOption.point(239, 1305}))
+        .moveTo(PointOption.point(239, 1390}))
+        .release()
+        .perform();
+
+        (new TouchAction(driver))
+        .press(PointOption.point(281, 1474}))
+        .moveTo(PointOption.point(281, 1470}))
+        .release()
+        .perform();
+
+        (new TouchAction(driver))
+        .press(PointOption.point(644, 1692}))
+        .moveTo(PointOption.point(679, 1041}))
+        .release()
+        .perform();
+
+        (new TouchAction(driver))
+        .press(PointOption.point(1020, 1347}))
+        .moveTo(PointOption.point(1020, 1358}))
+        .release()
+        .perform();
+
+        (new TouchAction(driver)).tap(1017, 1347).perform()
+        (new TouchAction(driver)).tap(1020, 1340).perform()
+        (new TouchAction(driver)).tap(739, 1354).perform()
+        (new TouchAction(driver)).tap(1034, 1354).perform()
+        (new TouchAction(driver)).tap(141, 2061).perform()
+        (new TouchAction(driver)).tap(1013, 1164).perform()
+        (new TouchAction(driver)).tap(981, 1875).perform()
+        (new TouchAction(driver)).tap(348, 2054).perform()
+
+
+        }
+}

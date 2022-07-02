@@ -1,0 +1,30 @@
+public class caseone {
+
+    public static void main(String args[]){
+
+       (new TouchAction(driver)).tap(1003, 171).perform()
+(new TouchAction(driver)).tap(553, 2065).perform()
+(new TouchAction(driver)).tap(507, 1241).perform()
+(new TouchAction(driver)).tap(476, 775).perform()
+(new TouchAction(driver))
+  .press(PointOption.point(489, 2178}))
+  .moveTo(PointOption.point(714, 2183}))
+  .release()
+  .perform();
+  
+(new TouchAction(driver))
+  .press(PointOption.point(548, 2183}))
+  .moveTo(PointOption.point(640, 2175}))
+  .release()
+  .perform();
+  
+(new TouchAction(driver)).tap(711, 2180).perform()
+(new TouchAction(driver)).tap(182, 770).perform()
+(new TouchAction(driver)).tap(69, 2001).perform()
+(new TouchAction(driver)).tap(392, 1666).perform()
+(new TouchAction(driver)).tap(845, 2012).perform()
+
+
+
+        }
+}
